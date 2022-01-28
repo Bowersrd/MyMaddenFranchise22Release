@@ -64,6 +64,15 @@
     - On the roster, depth chart, stats tabs, you can filter to any posiiton and quickly view other teams by simply clicking the logos at the very top of the screen. This would allow you to quickly see what QBs are on what teams, etc.
     - On the SCHEDULE tab, you can click a game that is UNPLAYED and view the *GAME PREVIEW*.
     - There is no sorting on the FINANCES page, this is on the list of things to do.
+### Custom Logos/Wordart
+- The app will default to NFL Logo for any CUSTOM or RELOCATED team unless you create a custom logo png to place in the AppData Logos folder. 
+- Download the templates from this repo to get your sizing to match the embedded logos/wordart. 
+- On the home page (Where you load your file), click the bottom right folder to open the AppData for the app. In the LOGOS folder, you will see a folder for each franchise you have loaded. Place your logo in the correct folder(s) and they will be used instead of the default NFL logo.
+- The following format MUST be followed for images:
+    - The image MUST be a .png file. 
+    - The filename MUST be ALL LOWERCASE.
+    - The filename MUST match the team's ShortName in the file (Ex. Tampa Bay is TB so tb.png)
+    - Wordart file name must have teamname_wordart.png (Ex. tb_wordart.png)
 ### Reporting Bugs/Issues
 - To report any bug or issue, please head over to the Madden Modding Community Discord and be very clear about what is going on.
 - Do not simply say "My tool is broken", "This messed my file up". You will be ignored. Always provide clear and concise details on the issue at hand, screenshots help a lot.
